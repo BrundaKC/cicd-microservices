@@ -1,1 +1,4 @@
-sonar.projectKey=ms
+sonar.projectKey=api-gateway
+sonar.projectName=api-gateway
+sonar.sources=.
+sonar.exclusions=node_modules/*,coverage/*
