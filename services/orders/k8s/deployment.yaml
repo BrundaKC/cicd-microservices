@@ -11,8 +11,8 @@ spec:
     spec:
       containers:
       - name: orders
-        image: hiqodenew.jfrog.io/cicd-docker/new-app/orders:v1
-        imagePullPolicy: IfNotPresent
+        image: hiqodeinnovations.jfrog.io/dockerimageappa/cicd-app/orders:v.1.0.1
+        imagePullPolicy: Always
         ports:
         - containerPort: 3003
         readinessProbe:
